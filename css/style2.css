@@ -1,0 +1,56 @@
+html{
+    scroll-behavior: smooth;
+  }
+  
+  main{
+    background-color: cornsilk;
+  }
+
+  .gridimages{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    row-gap: 15px;
+  }
+
+  .breakfast{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  
+  .lunch{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  
+  .dinner{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .breakfast-image{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  
+  }
+  
+  .lunch-image{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  
+  .dinner-image{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
