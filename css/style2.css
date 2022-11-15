@@ -1,142 +1,133 @@
+html{
+  scroll-behavior: smooth;
+}
+  
+main{
+  background-color: whitesmoke;
+}
+  
+body{
+  background-color: whitesmoke;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 1.15;
+  margin: 0;
+  padding: 0;
+}
+  
+h1{
+  font-size: 50px;
+  line-height: 1;
+  padding: 50px 0;
+  text-align: center;
+  background-color: rgb(0, 0, 0, 0.2);
+  color: whitesmoke;
+}
+  
+nav li{
+   display:inline-block;
+   padding-right:20px;
+   font-size: 20px;
+}
+  
+nav a{
+  color: darkgreen;
+  font-weight: bold;
+  text-decoration: none; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
-  html{
-    scroll-behavior: smooth;
-  }
+nav{
+  background-color: whitesmoke; 
+  text-align: left;
+  height: 30px;
+}
   
-  main{
-    background-color: whitesmoke;
-  }
-  
-  body{
-    background-color: whitesmoke;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px;
-    line-height: 1.15;
-    margin: 0;
-    padding: 0;
-  }
-  
-  
-  h1{
-    font-size: 50px;
-    line-height: 1;
-    padding: 50px 0;
-    text-align: center;
-    background-color: rgb(0, 0, 0, 0.2);
-    color: whitesmoke;
-  }
-  
-  nav li{
-    display:inline-block;
-    padding-right:20px;
-    font-size: 20px;
-  }
-  
-  nav a{
-    color: darkgreen;
-    font-weight: bold;
-    text-decoration: none; 
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
+footer{
+  background-color: black;
+  color: white;
+  padding-top: 30px;
+  text-align: center;
+}
 
-  nav{
-    background-color: whitesmoke; 
-    text-align: left;
-    height: 30px;
-  }
-  
-  footer{
-    background-color: black;
-    color: white;
-    padding-top: 30px;
-    text-align: center;
-  }
+nav a:hover {
+  text-decoration: underline;
+}
 
-  nav a:hover {
-    text-decoration: underline;
-  }
+.gridimages{
+  display: grid;
+  margin: 20px;
+  column-gap: 20px;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 25% 25% 25%;
+  row-gap: 15px;
+}
+  
+.gridimages h2{
+  font-size: 35px;
+  color: darkgoldenrod;
+}
 
-  .gridimages{
-    display: grid;
-    margin: 20px;
-    column-gap: 20px;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 25% 25% 25%;
-    row-gap: 15px;
-  }
+.gridimages p{
+  color: rgb(47, 47, 47);
+  font-size: 22px;
+}
   
-  .gridimages h2{
-    font-size: 35px;
-    color: darkgoldenrod;
-  }
+.container > div:first-child{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-image:url(../images/annarborpic5.jpg);
+  background-attachment: fixed;      
+  background-position: center;  
+  background-repeat: no-repeat; 
+}
+  
+.breakfast{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+  
+.lunch{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+}
+  
+.dinner{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+}
 
-  .gridimages p{
-    color: rgb(47, 47, 47);
-    font-size: 22px;
-  }
+.breakfast-image{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  max-height: 600px;
+  overflow: hidden;
+}
   
- 
-  .container > div:first-child{
-    grid-column-start: 1;
-    grid-column-end: 3;
-    background-image:url(../images/annarborpic5.jpg);
-    background-attachment: fixed;      
-    background-position: center;  
-    background-repeat: no-repeat; 
+.lunch-image{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  max-height: 600px;
+  overflow: hidden;
+}
   
-  }
-  
-  .breakfast{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
-  }
-  
-  .lunch{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-  }
-  
-  .dinner{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 3;
-  }
+.dinner-image{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  max-height: 600px;
+  overflow: hidden;
+}
 
-  .breakfast-image{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
+.text-block{
+  text-align: center;
+  margin: auto;
+}
   
-    max-height: 600px;
-    overflow: hidden;
-  }
-  
-  .lunch-image{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-  
-    max-height: 600px;
-    overflow: hidden;
-  }
-  
-  .dinner-image{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 3;
-   
-  
-    max-height: 600px;
-    overflow: hidden;
-  }
-
-   .text-block{
-    text-align: center;
-    margin: auto;
-  }
-  
-
   
