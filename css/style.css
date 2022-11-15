@@ -1,27 +1,11 @@
 html{
     scroll-behavior: smooth;
 }
-
-
-/* skip to content hidden on load and appear on the first tab */
-
-/* .skip{
-    left: 50%;
-    top: 40px;
-    transform: translateY(-100%);
-}
-  
-.skip:focus{
-    transform: translateY(0%);
-    top: -20px;
-} */
-
-
-  
+    
 main{
     background-color: whitesmoke;
 }
-  
+    
 body{
     background-color: whitesmoke;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -30,7 +14,7 @@ body{
     margin: 0;
     padding: 0;
 }
-
+    
 h1{
     font-size: 50px;
     line-height: 1;
@@ -39,26 +23,36 @@ h1{
     background-color: rgb(0, 0, 0, 0.2);
     color: whitesmoke;
 }
-
+    
 nav li{
     display:inline-block;
     padding-right:20px;
     font-size: 20px;
 }
-   
+    
 nav a{
-   color: darkgreen;
-   font-weight: bold;
-   text-decoration: none; 
-   font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkgreen;
+    font-weight: bold;
+    text-decoration: none; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
- 
+  
 nav{
-   background-color: whitesmoke; 
-   text-align: left;
-   height: 30px;
+    background-color: whitesmoke; 
+    text-align: left;
+    height: 30px;
 }
-
+  
+.skip a{
+    position: absolute;
+    top: -20px;
+    right: 5px;
+}
+  
+.skip a:focus{
+    top: 20px;
+}
+    
 footer{
     background-color: black;
     color: white;

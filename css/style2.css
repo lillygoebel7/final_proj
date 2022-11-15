@@ -42,6 +42,16 @@ nav{
   text-align: left;
   height: 30px;
 }
+
+.skip a{
+  position: absolute;
+  top: -20px;
+  right: 5px;
+}
+
+.skip a:focus{
+  top: 20px;
+}
   
 footer{
   background-color: black;
