@@ -98,9 +98,13 @@ main h2{
 .place1, .place2, .place3, .place4, .place5, .place5, .place6, .place7, .place8, .place9, .place10{
     display: flex;
     flex-direction: row-reverse;
-    font-size: small;
+    font-size: medium;
     text-align: left;
     padding-right: 0.5cm;
+}
+
+.place1 p, .place2 p, .place3 p, .place4 p, .place5 p, .place5 p, .place6 p, .place7 p, .place8 p, .place9 p, .place10 p{
+    max-height: 275px;
     overflow: scroll;
 }
 
