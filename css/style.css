@@ -1,6 +1,6 @@
 html{
     scroll-behavior: smooth;
-}
+} 
     
 main{
     background-color: whitesmoke;
@@ -27,7 +27,7 @@ h1{
 nav li{
     display:inline-block;
     padding-right:20px;
-    font-size: 15px;
+    font-size: 10px;
 }
     
 nav a{
@@ -77,7 +77,7 @@ img{
     background-image:url(../images/annarborpic5.jpg);
     background-attachment: fixed;      
     background-position: center;  
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
 
 .overview2{
@@ -93,24 +93,46 @@ main h2{
     font-size: 35px;
     color: darkgoldenrod;
     padding: 0.5cm;
-}
-
-.place1, .place2, .place3, .place4, .place5, .place5, .place6, .place7, .place8, .place9, .place10{
-    display: flex;
-    flex-direction: row-reverse;
-    font-size: medium;
-    text-align: left;
-    padding-right: 0.5cm;
+    text-align: center;
 }
 
 .place1 p, .place2 p, .place3 p, .place4 p, .place5 p, .place5 p, .place6 p, .place7 p, .place8 p, .place9 p, .place10 p{
-    max-height: 275px;
-    overflow: scroll;
+    margin-left:10%;
+    margin-right:10%;
+    text-align: center;
 }
 
 .place1 img, .place2 img, .place3 img, .place4 img, .place5 img, .place5 img, .place6 img, .place7 img, .place8 img, .place9 img, .place10 img{
-    padding-left: 0.5cm;
-    padding-right: 0.5cm;
+    margin-top: 5%;
+    margin-left:25%;
+    margin-right:25%;
 }
 
-
+@media screen and (min-width: 900px) {
+    nav{
+        text-align: center;
+        height: 50px;
+    }
+    nav li{
+        display:inline-block;
+        padding-right:20px;
+        font-size: 15px;
+    }
+    .place1, .place2, .place3, .place4, .place5, .place5, .place6, .place7, .place8, .place9, .place10{
+        display: flex;
+        flex-direction: row-reverse;
+        font-size: medium;
+        text-align: left;
+        padding-right: 0.5cm;
+    }
+    
+    .place1 p, .place2 p, .place3 p, .place4 p, .place5 p, .place5 p, .place6 p, .place7 p, .place8 p, .place9 p, .place10 p{
+        max-height: 275px;
+        overflow: scroll;
+    }
+    
+    .place1 img, .place2 img, .place3 img, .place4 img, .place5 img, .place5 img, .place6 img, .place7 img, .place8 img, .place9 img, .place10 img{
+        padding-left: 0.5cm;
+        padding-right: 0.5cm;
+    }
+}
