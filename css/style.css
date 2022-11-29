@@ -27,7 +27,7 @@ h1{
 nav li{
     display:inline-block;
     padding-right:20px;
-    font-size: 10px;
+    font-size: 18px;
 }
     
 nav a{
@@ -116,7 +116,7 @@ main h2{
     nav li{
         display:inline-block;
         padding-right:20px;
-        font-size: 15px;
+        font-size: 25px;
     }
     .place1, .place2, .place3, .place4, .place5, .place5, .place6, .place7, .place8, .place9, .place10{
         display: flex;
