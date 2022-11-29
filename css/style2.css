@@ -25,9 +25,9 @@ h1{
 }
   
 nav li{
-   display:inline-block;
-   padding-right:20px;
-   font-size: 20px;
+  display:inline-block;
+  padding-right:20px;
+  font-size: 20px;
 }
   
 nav a{
@@ -36,19 +36,19 @@ nav a{
   text-decoration: none; 
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+  
 nav{
   background-color: whitesmoke; 
   text-align: left;
   height: 30px;
 }
-
+  
 .skip a{
   position: absolute;
   top: -20px;
   right: 5px;
 }
-
+  
 .skip a:focus{
   top: 20px;
 }
@@ -63,7 +63,7 @@ footer{
 nav a:hover {
   text-decoration: underline;
 }
-
+  
 .gridimages{
   display: grid;
   margin: 20px;
@@ -72,7 +72,7 @@ nav a:hover {
   grid-template-rows: 25% 25% 25%;
   row-gap: 15px;
 }
-  
+
 .gridimages h2{
   font-size: 35px;
   color: darkgoldenrod;
@@ -87,18 +87,18 @@ nav a:hover {
   grid-column-start: 1;
   grid-column-end: 3;
   background-image:url(../images/annarborpic5.jpg);
-  background-attachment: fixed;      
-  background-position: center;  
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat; 
 }
-  
+
 .breakfast{
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 2;
 }
-  
+
 .lunch{
   grid-column-start: 2;
   grid-column-end: 3;
@@ -118,7 +118,7 @@ nav a:hover {
   max-height: 600px;
   overflow: hidden;
 }
-  
+
 .lunch-image{
   grid-column-start: 1;
   grid-column-end: 2;
@@ -126,7 +126,7 @@ nav a:hover {
   max-height: 600px;
   overflow: hidden;
 }
-  
+
 .dinner-image{
   grid-column-start: 2;
   grid-column-end: 3;
@@ -134,7 +134,7 @@ nav a:hover {
   max-height: 600px;
   overflow: hidden;
 }
-
+  
 .text-block{
   text-align: center;
   margin: auto;

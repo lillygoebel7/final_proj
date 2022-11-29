@@ -72,3 +72,33 @@ main{
 img{
     max-width: 10cm;
 }
+
+.overview{
+    background-image:url(../images/annarborpic5.jpg);
+    background-attachment: fixed;      
+    background-position: center;  
+    background-repeat: no-repeat;
+}
+
+.overview2{
+    font-size: xx-large;
+    text-align: center;
+    color: darkgreen;
+    padding-right: 0.5cm;
+    padding-left: 0.5cm;
+}
+
+main h2{
+    font-size: 35px;
+    color: darkgoldenrod;
+}
+
+.place1, .place2, .place3, .place4, .place5, .place5, .place6, .place7, .place8, .place9, .place10{
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: x-large;
+    text-align: center;
+    padding-right: 0.5cm;
+}
+
+
