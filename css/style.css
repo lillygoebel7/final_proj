@@ -69,10 +69,6 @@ main{
     flex-direction: column;
 }
 
-img{
-    max-width: 10cm;
-}
-
 .overview{
     background-image:url(../images/annarborpic5.jpg);
     background-attachment: fixed;      
@@ -106,9 +102,10 @@ main h2{
     margin-top: 5%;
     margin-left:25%;
     margin-right:25%;
+    min-width: 50%;
 }
 
-@media screen and (min-width: 900px) and (max-width: 1500px){
+@media screen and (min-width: 900px) and (max-width: 1200px){
     nav{
         text-align: center;
         height: 50px;
@@ -139,7 +136,7 @@ main h2{
     }
 }
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1200px) {
     nav{
         text-align: center;
         height: 50px;
@@ -150,10 +147,6 @@ main h2{
         font-size: 30px;
         padding-top: 5px;
     }
-
-
-
-
 }
 
 
