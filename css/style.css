@@ -114,7 +114,7 @@ main h2{
 
 @media screen and (min-width: 900px) and (max-width: 1200px){
     nav{
-        text-align: left;
+        text-align: center;
         height: 50px;
     }
     nav li{
