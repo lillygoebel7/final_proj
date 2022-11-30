@@ -42,11 +42,12 @@ nav a{
   text-decoration: none; 
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
   
 .intro{
-  padding: 20px;
+  padding: 50px;
   font-size: 30px;
-  color: darkgoldenrod;
+  color: darkgreen;
   text-align: center;
 }
 
@@ -160,171 +161,185 @@ nav a:hover {
 }
   
 @media screen and (min-width: 900px) and (max-width: 1500px){
-  nav{
-    text-align: left;
-    height: 50px;
-  }
-  
-  nav li{
-    display:inline-block;
-    padding-right:20px;
-    font-size: 18px;
-  }
-  
-  body{
-    background-color: whitesmoke;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 8px;
-    color: grey;
-    line-height: 1.15;
-  }
-  
-  .breakfast{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-  } 
-  
-  .lunch{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-  }
+    nav{
+      text-align: center;
+      height: 50px;
+    }
+    
+    nav li{
+      display:inline-block;
+      padding-right:20px;
+      font-size: 25px;
+    }
+    
+    body{
+      background-color: whitesmoke;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 8px;
+      color: grey;
+      line-height: 1.15;
+    }
 
-  .dinner{
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 1;
-  }
-  
-  .breakfast-image{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 4;
-    overflow: hidden;
-    border-radius: 30px;
-  }
-  
-  .lunch-image{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 4;
-    overflow: hidden;
-    border-radius: 30px;
-  }
-  
-  .dinner-image{
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 4;
-    overflow: hidden;
-    border-radius: 30px;
-  }
-  
-  .text-block{
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: rgba(245, 245, 245, .95);
-    border: 5px darkgoldenrod solid;
-    border-radius: 30px;
-  }
+    .gridimages{
+      display: grid;
+      column-gap: 20px;
+      grid-template-columns: auto auto auto;
+      grid-template-rows: auto auto auto auto;
+      row-gap: 15px;
+      padding: 10px;
+    }
+    
+    .breakfast{
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 2;
+      grid-row-end: 3;
+    } 
+    
+    .lunch{
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 2;
+      grid-row-end: 3;
+    }
 
-  .gridimages{
-    padding-bottom:0fr;
-  }
+    .dinner{
+      grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 2;
+      grid-row-end: 3;
+    }
+    
+    .breakfast-image{
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 1;
+      grid-row-end: 5;
+      overflow: hidden;
+      border-radius: 30px;
+    }
+    
+    .lunch-image{
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 5;
+      overflow: hidden;
+      border-radius: 30px;
+    }
+    
+    .dinner-image{
+      grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 1;
+      grid-row-end: 5;
+      overflow: hidden;
+      border-radius: 30px;
+    }
+    
+    .text-block{
+      text-align: center;
+      margin-left: 10px;
+      margin-right: 10px;
+      background-color: rgba(245, 245, 245, .95);
+      border: 5px darkgoldenrod solid;
+      border-radius: 30px;
+    }
+
+    .gridimages{
+      padding-bottom:0fr;
+    }
   
   }
   
   @media screen and (min-width: 1200px) {
-  nav{
-    text-align: left;
-    height: 50px;
-  }
+    nav{
+      text-align: left;
+      height: 50px;
+    }
+  
+    nav li{
+      display:inline-block;
+      padding-right:20px;
+      font-size: 30px;
+      padding-top: 5px;
+    }
+    
+    body{
+      background-color: whitesmoke;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 8px;
+      color: grey;
+      line-height: 1.15;
+    }
+    
+    .gridimages{
+      display: grid;
+      margin: 50px;
+      grid-template-columns: auto auto auto auto;
+      grid-template-rows: auto auto auto;
+      row-gap: 50px;
+    }
+    
+    .breakfast{
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end:2;
+    } 
+    
+    .lunch{
+      grid-column-start: 3;
+      grid-column-end: 5;
+      grid-row-start: 2;
+      grid-row-end:3;
+    }
+  
+    .dinner{
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 3;
+      grid-row-end:4;
+    }
+    
+    .breakfast-image{
+      grid-column-start: 2;
+      grid-column-end: 4;
+      grid-row-start: 1;
+      grid-row-end:2;
+      max-height: 500px;
+      width: 1200px;
+      overflow: hidden;
+    }
+    
+    .lunch-image{
+      grid-column-start: 2;
+      grid-column-end: 4;
+      grid-row-start: 2;
+      grid-row-end:3;
+      max-height: 500px;
+      width: 1200px;
+      overflow: hidden;
+    }
+    
+    .dinner-image{
+      grid-column-start: 2;
+      grid-column-end: 4;
+      grid-row-start: 3;
+      grid-row-end:4;
+      max-height: 500px;
+      width: 1200px;
+      overflow: hidden;
+    }
+    
+    .text-block{
+      text-align: center;
+      margin: auto;
+      padding: 4px;
+      background-color: rgba(245, 245, 245, .95);
+      border: 5px darkgoldenrod solid;
+     border-radius: 20px;
+    }
 
-  nav li{
-    display:inline-block;
-    padding-right:20px;
-    font-size: 18px;
-    padding-top: 5px;
-  }
-  
-  body{
-    background-color: whitesmoke;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 8px;
-    color: grey;
-    line-height: 1.15;
-  }
-  
-  .gridimages{
-    display: grid;
-    margin: 50px;
-    column-gap: 10px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    row-gap: 50px;
-  }
-  
-  .breakfast{
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-  } 
-  
-  .lunch{
-    grid-column-start: 3;
-    grid-column-end: 5;
-    grid-row-start: 2;
-  }
-
-  .dinner{
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 3;
-  }
-  
-  .breakfast-image{
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    max-height: 500px;
-    width: 1200px;
-    overflow: hidden;
-  }
-  
-  .lunch-image{
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    max-height: 500px;
-    width: 1200px;
-    overflow: hidden;
-  }
-  
-  .dinner-image{
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 3;
-    max-height: 500px;
-    width: 1200px;
-    overflow: hidden;
-  }
-  
-  .text-block{
-    text-align: center;
-    margin: auto;
-    padding: 4px;
-    background-color: rgba(245, 245, 245, .95);
-    border: 5px darkgoldenrod solid;
-   border-radius: 20px;
-  }
-
-  .gridimages{
-    padding-bottom:0fr;
-  }
   }
   
