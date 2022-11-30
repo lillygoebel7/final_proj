@@ -24,25 +24,23 @@ h1{
     color: whitesmoke;
 }
     
-nav{
-    background-color: whitesmoke; 
-    text-align: left;
-    height: 40px;
-    margin-left: 15px;
-    margin-top: 10px;
-}
-    
-  nav li{
+nav li{
     display:inline-block;
     padding-right:20px;
     font-size: 18px;
 }
     
-  nav a{
+nav a{
     color: darkgreen;
     font-weight: bold;
     text-decoration: none; 
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+  
+nav{
+    background-color: whitesmoke; 
+    text-align: left;
+    height: 50px;
 }
   
 .skip a{
@@ -89,16 +87,16 @@ main{
 
 main h2{
     font-size: 35px;
-    color: darkgoldenrod;
+    color: darkgreen;
     padding: 0.5cm;
     text-align: center;
 }
 
 .restaurant a{
-    color: darkgoldenrod;
+    color: darkgreen;
 }
 .restaurant a:visited{
-    color: darkgoldenrod;
+    color: darkgreen;
 }
 
 .place1 p, .place2 p, .place3 p, .place4 p, .place5 p, .place5 p, .place6 p, .place7 p, .place8 p, .place9 p, .place10 p{
@@ -119,11 +117,10 @@ main h2{
         text-align: left;
         height: 50px;
     }
-      
     nav li{
         display:inline-block;
         padding-right:20px;
-        font-size: 18px;
+        font-size: 25px;
     }
 
     .place1, .place2, .place3, .place4, .place5, .place5, .place6, .place7, .place8, .place9, .place10{
@@ -141,7 +138,7 @@ main h2{
         text-align: center;
         padding: 10px;
         margin-bottom: 5px;
-        border: 3px darkgreen solid;
+        border: 3px darkgoldenrod solid;
         border-radius: 20px;
     }
     
@@ -157,14 +154,12 @@ main h2{
         text-align: left;
         height: 50px;
     }
-    
-      nav li{
+    nav li{
         display:inline-block;
         padding-right:20px;
-        font-size: 18px;
+        font-size: 30px;
         padding-top: 5px;
     }
-    
     .overview2{
         padding: 25px;
     }
@@ -176,7 +171,7 @@ main h2{
     }
 
     .restaurant{
-        border: 3px darkgreen solid;
+        border: 3px darkgoldenrod solid;
         min-width: 400px;
         padding: 15px;
         margin: 20px;
