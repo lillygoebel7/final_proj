@@ -14,10 +14,12 @@
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">Top Ten Places to Eat</a></li>
-                <li><a href="breakfast.html">Best Breakfast</a></li>
-                <li><a href="lunch.html">Best Lunch</a></li>
-                <li><a href="dinner.html">Best Dinner</a></li>
+                <div id="myDIV">
+                    <button class="btn"><a href="index.html">Top Ten Places to Eat</a></button>
+                    <button class="btn"><a href="breakfast.html">Best Breakfast</a></button>
+                    <button class="btn active"><a href="lunch.html">Best Lunch</a></button>
+                    <button class="btn"><a href="dinner.html">Best Dinner</a></button> 
+                </div>
             </ul>
         </nav>
         <div class = overview>
@@ -154,6 +156,18 @@
         &copy; Lilly Goebel, Ansley Lewis - Web Design 2022</p>
     </footer>
     <script src="dist/js/lightbox-plus-jquery.js"></script>
+    <script>
+        // Add active class to the current button (highlight it)
+        var header = document.getElementById("myDIV");
+        var btns = header.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function() {
+          var current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace(" active", "");
+          this.className += " active";
+          });
+        }
+        </script>
 </body>
 </html>
 
