@@ -108,7 +108,7 @@ main h2{
     margin-right:25%;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 900px) and (max-width: 1500px){
     nav{
         text-align: center;
         height: 50px;
@@ -129,6 +129,8 @@ main h2{
     .place1 p, .place2 p, .place3 p, .place4 p, .place5 p, .place5 p, .place6 p, .place7 p, .place8 p, .place9 p, .place10 p{
         max-height: 275px;
         overflow: scroll;
+        font-size: x-large;
+        
     }
     
     .place1 img, .place2 img, .place3 img, .place4 img, .place5 img, .place5 img, .place6 img, .place7 img, .place8 img, .place9 img, .place10 img{
@@ -136,3 +138,22 @@ main h2{
         padding-right: 0.5cm;
     }
 }
+
+@media screen and (min-width: 1500px) {
+    nav{
+        text-align: center;
+        height: 50px;
+    }
+    nav li{
+        display:inline-block;
+        padding-right:20px;
+        font-size: 30px;
+        padding-top: 5px;
+    }
+
+
+
+
+}
+
+
