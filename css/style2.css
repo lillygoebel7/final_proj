@@ -168,7 +168,7 @@ nav a:hover {
   nav li{
     display:inline-block;
     padding-right:20px;
-    font-size: 25px;
+    font-size: 18px;
   }
   
   body{
@@ -248,7 +248,7 @@ nav a:hover {
   nav li{
     display:inline-block;
     padding-right:20px;
-    font-size: 30px;
+    font-size: 18px;
     padding-top: 5px;
   }
   
@@ -320,7 +320,7 @@ nav a:hover {
     padding: 4px;
     background-color: rgba(245, 245, 245, .95);
     border: 5px darkgoldenrod solid;
-  border-radius: 20px;
+   border-radius: 20px;
   }
 
   .gridimages{

@@ -24,23 +24,25 @@ h1{
     color: whitesmoke;
 }
     
-nav li{
+nav{
+    background-color: whitesmoke; 
+    text-align: left;
+    height: 40px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+    
+  nav li{
     display:inline-block;
     padding-right:20px;
     font-size: 18px;
 }
     
-nav a{
+  nav a{
     color: darkgreen;
     font-weight: bold;
     text-decoration: none; 
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-  
-nav{
-    background-color: whitesmoke; 
-    text-align: left;
-    height: 50px;
 }
   
 .skip a{
@@ -92,6 +94,13 @@ main h2{
     text-align: center;
 }
 
+.restaurant a{
+    color: darkgoldenrod;
+}
+.restaurant a:visited{
+    color: darkgoldenrod;
+}
+
 .place1 p, .place2 p, .place3 p, .place4 p, .place5 p, .place5 p, .place6 p, .place7 p, .place8 p, .place9 p, .place10 p{
     margin-left:10%;
     margin-right:10%;
@@ -110,10 +119,11 @@ main h2{
         text-align: left;
         height: 50px;
     }
+      
     nav li{
         display:inline-block;
         padding-right:20px;
-        font-size: 25px;
+        font-size: 18px;
     }
 
     .place1, .place2, .place3, .place4, .place5, .place5, .place6, .place7, .place8, .place9, .place10{
@@ -147,12 +157,14 @@ main h2{
         text-align: left;
         height: 50px;
     }
-    nav li{
+    
+      nav li{
         display:inline-block;
         padding-right:20px;
-        font-size: 30px;
+        font-size: 18px;
         padding-top: 5px;
     }
+    
     .overview2{
         padding: 25px;
     }
