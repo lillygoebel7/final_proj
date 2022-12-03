@@ -2,10 +2,15 @@
 .btn {
   border: none;
   outline: none;
-  padding: 10px 16px;
+  padding-top: 6px;
   background-color: whitesmoke;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 11px;
+}
+
+#myDIV{
+  display: grid;
+  justify-items: center;
 }
 
 /* Style the active class, and buttons on mouse-over */
@@ -45,9 +50,9 @@ h1{
 nav{
   background-color: whitesmoke; 
   text-align: left;
-  height: 40px;
+  height: 115px;
   margin-left: 15px;
-  margin-top: 10px;
+  padding-top: 10px;
 }
   
 nav li{
@@ -181,9 +186,17 @@ nav a:hover {
 }
   
 @media screen and (min-width: 900px) and (max-width: 1500px){
+  .btn {
+    font-size: 20px;
+  }
+  
     nav{
       text-align: center;
       height: 50px;
+    }
+
+    #myDIV{
+      display: inline-block;
     }
     
     nav li{
@@ -276,6 +289,10 @@ nav a:hover {
     nav{
       text-align: left;
       height: 50px;
+    }
+
+    #myDIV{
+      display: inline-block;
     }
   
     nav li{
