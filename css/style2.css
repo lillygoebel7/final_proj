@@ -1,3 +1,24 @@
+/* Style the buttons */
+.btn {
+  padding-top: 6px;
+  cursor: pointer;
+  color: darkgreen;
+}
+
+#myDIV{
+  display: grid;
+  justify-items: center;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.active, .btn:hover {
+  margin-top: 5px;
+  padding: 7px;
+  background-color: white;
+  border: 2px darkgreen solid;
+  border-radius: 20px;
+}
+
 html{
   scroll-behavior: smooth;
 }
@@ -22,19 +43,21 @@ h1{
   color: whitesmoke;
 }
 
-nav{
-  background-color: whitesmoke; 
-  text-align: left;
-  height: 40px;
-  margin-left: 15px;
-  margin-top: 10px;
-}
-  
 nav a{
   color: darkgreen;
   font-weight: bold;
   text-decoration: none; 
   font-family: Verdana, Tahoma, sans-serif;
+}
+
+nav{
+  background-color: whitesmoke; 
+  text-align: left;
+  height: 125px;
+  padding-top: 10px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  line-height: 30px;
 }
 
 .skip a{
@@ -57,10 +80,10 @@ nav a{
 footer{
   background-color: black;
   color: white;
-  padding-top: 10px;
+  padding-top: 30px;
   text-align: center;
 }
-  
+
 nav a:hover {
   text-decoration: underline;
 }
@@ -155,16 +178,19 @@ nav a:hover {
 }
   
 @media screen and (min-width: 900px){
-    nav{
-      text-align: center;
-      height: 50px;
-    }
-    
-    nav li{
-      display:inline-block;
-      padding-right:20px;
-      font-size: 25px;
-    }
+  #myDIV{
+    display: inline-block;
+  }
+
+  nav{
+    text-align: center;
+    height: 50px;
+  }
+  nav li{
+    display:inline-block;
+    padding-right:20px;
+    font-size: 20px;
+  }
 
     .gridimages{
       display: grid;
@@ -232,6 +258,10 @@ nav a:hover {
   }
   
   @media screen and (min-width: 1200px) {
+    #myDIV{
+      display: inline-block;
+    }
+
     nav{
       text-align: left;
       height: 50px;
@@ -240,7 +270,7 @@ nav a:hover {
     nav li{
       display:inline-block;
       padding-right:20px;
-      font-size: 30px;
+      font-size: 25px;
       padding-top: 5px;
     }
     
