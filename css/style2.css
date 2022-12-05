@@ -189,6 +189,9 @@ nav a:hover {
   .btn {
     font-size: 20px;
   }
+  footer{
+    font-size: large;
+  }
   
     nav{
       text-align: center;
@@ -289,6 +292,10 @@ nav a:hover {
     nav{
       text-align: left;
       height: 50px;
+    }
+
+    footer{
+      font-size: large;
     }
 
     #myDIV{
