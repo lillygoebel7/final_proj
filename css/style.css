@@ -1,11 +1,8 @@
 /* Style the buttons */
 .btn {
-    border: none;
-    outline: none;
     padding-top: 6px;
-    background-color: #f1f1f1;
     cursor: pointer;
-    font-size: 11px;
+    color: darkgreen;
 }
 
 #myDIV{
@@ -16,10 +13,9 @@
 /* Style the active class, and buttons on mouse-over */
 .active, .btn:hover {
     margin-top: 5px;
-    padding-bottom: 7px;
+    padding: 7px;
     background-color: white;
     border: 2px darkgreen solid;
-    color: whitesmoke;
     border-radius: 20px;
 }
 
@@ -33,7 +29,7 @@ main{
     
 body{
     background-color: whitesmoke;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Verdana, Tahoma, sans-serif;
     font-size: 18px;
     line-height: 1.15;
     margin: 0;
@@ -53,14 +49,17 @@ nav a{
     color: darkgreen;
     font-weight: bold;
     text-decoration: none; 
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Verdana, Tahoma, sans-serif;
 }
   
 nav{
     background-color: whitesmoke; 
     text-align: left;
-    height: 115px;
+    height: 125px;
     padding-top: 10px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    line-height: 30px;
 }
   
 .skip a{
@@ -133,10 +132,6 @@ main h2{
 }
 
 @media screen and (min-width: 900px) and (max-width: 1200px){
-    .btn {
-        font-size: 20px;
-    }
-
     #myDIV{
         display: inline-block;
     }
@@ -148,7 +143,7 @@ main h2{
     nav li{
         display:inline-block;
         padding-right:20px;
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .place1, .place2, .place3, .place4, .place5, .place5, .place6, .place7, .place8, .place9, .place10{
@@ -178,11 +173,6 @@ main h2{
 }
 
 @media screen and (min-width: 1200px) {
-    .btn {
-        font-size: 20px;
-        padding-bottom: 2px;
-    }
-
     #myDIV{
         display: inline-block;
     }
@@ -195,7 +185,7 @@ main h2{
     nav li{
         display:inline-block;
         padding-right:20px;
-        font-size: 30px;
+        font-size: 25px;
         padding-top: 5px;
     }
     .overview2{
